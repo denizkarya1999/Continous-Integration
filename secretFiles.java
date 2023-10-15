@@ -1,14 +1,18 @@
 public class secretFiles {
     public static void main(String[] args) {
-        hashing hashFunction = new hashing(10);
+        hashing hashFunction = new hashing(6);
 
-        hashFunction.insert("Alice", "123-456-7890");
-        hashFunction.insert("Bob", "987-654-3210");
-        hashFunction.insert("Charlie", "555-123-4567");
+        hashFunction.insert("11", "Operation Thunder on the Desert");
+        hashFunction.insert("12", "Operation Liberating Dreams");
+        hashFunction.insert("13", "Operation Beach Holiday");
+        hashFunction.insert("14", "Operation Coke Kid");
+        hashFunction.insert("15", "Operation Alan Turing");
 
-        System.out.println("Alice's Phone Number: " + hashFunction.lookup("Alice"));
-        System.out.println("Bob's Phone Number: " + hashFunction.lookup("Bob"));
-        System.out.println("Dave's Phone Number: " + hashFunction.lookup("Dave"));
+        System.out.println("Islamist Purge of 2022: " + hashFunction.lookup("11"));
+        System.out.println("DV2023 Application: " + hashFunction.lookup("12"));
+        System.out.println("Hackathons in Turkey: " + hashFunction.lookup("13"));
+        System.out.println("Passing Calculus 2: " + hashFunction.lookup("14"));
+        System.out.println("Integration of LGBT with Karya: " + hashFunction.lookup("15"));
     }
 }
 
